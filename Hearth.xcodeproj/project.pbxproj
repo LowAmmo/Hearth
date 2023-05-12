@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5070F0122A0EC65100364092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0112A0EC65100364092 /* AppDelegate.swift */; };
+		5070F0142A0EC65100364092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0132A0EC65100364092 /* SceneDelegate.swift */; };
+		5070F0162A0EC65100364092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0152A0EC65100364092 /* ViewController.swift */; };
+		5070F0192A0EC65100364092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5070F0172A0EC65100364092 /* Main.storyboard */; };
+		5070F01B2A0EC65300364092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5070F01A2A0EC65300364092 /* Assets.xcassets */; };
+		5070F01E2A0EC65300364092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5070F01C2A0EC65300364092 /* LaunchScreen.storyboard */; };
+		5070F0292A0EC65400364092 /* HearthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0282A0EC65400364092 /* HearthTests.swift */; };
+		5070F0332A0EC65400364092 /* HearthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0322A0EC65400364092 /* HearthUITests.swift */; };
+		5070F0352A0EC65400364092 /* HearthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070F0342A0EC65400364092 /* HearthUITestsLaunchTests.swift */; };
+		61C2DFE32C2FA2097F15EF89 /* Pods_HearthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE52325CFB9110164C33A446 /* Pods_HearthUITests.framework */; };
+		6429EB196C6FB169AED2EC95 /* Pods_Hearth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A71F228C5D592E291C21638 /* Pods_Hearth.framework */; };
+		D181A236F6895ADA706C42D5 /* Pods_HearthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F93C8A7102BD7888DE80331 /* Pods_HearthTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5070F0252A0EC65400364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0062A0EC65100364092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5070F00D2A0EC65100364092;
+			remoteInfo = Hearth;
+		};
+		5070F02F2A0EC65400364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0062A0EC65100364092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5070F00D2A0EC65100364092;
+			remoteInfo = Hearth;
+		};
+		5070F0712A0ECD6600364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		5070F0732A0ECD6600364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB92DAAC1C3B59C4273639838A4F098D;
+			remoteInfo = AlamofirePlace;
+		};
+		5070F0752A0ECD6600364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D89A1EFA64E9161CCBFDDFD23D14F07F;
+			remoteInfo = "Pods-Hearth";
+		};
+		5070F0772A0ECD6600364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA31DA5B00EADAA97B6779A03CEF423C;
+			remoteInfo = "Pods-HearthTests";
+		};
+		5070F0792A0ECD6600364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DC69C79D3CF881002380BCE576131DB;
+			remoteInfo = "Pods-HearthUITests";
+		};
+		5070F07B2A0ECD9200364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7508562F857A23D9909EAD65E06DAA97;
+			remoteInfo = "Pods-Hearth";
+		};
+		5070F07D2A0ECD9700364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E6BDDC7134DBB24D1F0139F95050F;
+			remoteInfo = "Pods-HearthTests";
+		};
+		5070F07F2A0ECD9B00364092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5035CE93966E3C1A062B7CE64AF788B5;
+			remoteInfo = "Pods-HearthUITests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C374D5A5D48D53569A4590D /* Pods-HearthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearthUITests.release.xcconfig"; path = "Target Support Files/Pods-HearthUITests/Pods-HearthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F93C8A7102BD7888DE80331 /* Pods_HearthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5070F00E2A0EC65100364092 /* Hearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5070F0112A0EC65100364092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5070F0132A0EC65100364092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5070F0152A0EC65100364092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5070F0182A0EC65100364092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5070F01A2A0EC65300364092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5070F01D2A0EC65300364092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5070F01F2A0EC65300364092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5070F0242A0EC65400364092 /* HearthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5070F0282A0EC65400364092 /* HearthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthTests.swift; sourceTree = "<group>"; };
+		5070F02E2A0EC65400364092 /* HearthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5070F0322A0EC65400364092 /* HearthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthUITests.swift; sourceTree = "<group>"; };
+		5070F0342A0EC65400364092 /* HearthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5070F0412A0EC6EF00364092 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5070F0692A0ECD6600364092 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		5A15E6F939887EAEB19AFFFB /* Pods-HearthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearthTests.debug.xcconfig"; path = "Target Support Files/Pods-HearthTests/Pods-HearthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A71F228C5D592E291C21638 /* Pods_Hearth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hearth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE52325CFB9110164C33A446 /* Pods_HearthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AD8D04704FCA65236562E8 /* Pods-HearthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearthUITests.debug.xcconfig"; path = "Target Support Files/Pods-HearthUITests/Pods-HearthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4AF6362403A97B4BC58920C /* Pods-Hearth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hearth.release.xcconfig"; path = "Target Support Files/Pods-Hearth/Pods-Hearth.release.xcconfig"; sourceTree = "<group>"; };
+		ECB6DA3E3D986BDF44FC8B08 /* Pods-HearthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearthTests.release.xcconfig"; path = "Target Support Files/Pods-HearthTests/Pods-HearthTests.release.xcconfig"; sourceTree = "<group>"; };
+		F89E5BD3A63BBA38FC689B65 /* Pods-Hearth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hearth.debug.xcconfig"; path = "Target Support Files/Pods-Hearth/Pods-Hearth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5070F00B2A0EC65100364092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6429EB196C6FB169AED2EC95 /* Pods_Hearth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F0212A0EC65400364092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D181A236F6895ADA706C42D5 /* Pods_HearthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F02B2A0EC65400364092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2DFE32C2FA2097F15EF89 /* Pods_HearthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199A46DEB62AEE6CC4AC1C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A71F228C5D592E291C21638 /* Pods_Hearth.framework */,
+				3F93C8A7102BD7888DE80331 /* Pods_HearthTests.framework */,
+				CE52325CFB9110164C33A446 /* Pods_HearthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36A47CF761B2C30BA6301844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F89E5BD3A63BBA38FC689B65 /* Pods-Hearth.debug.xcconfig */,
+				E4AF6362403A97B4BC58920C /* Pods-Hearth.release.xcconfig */,
+				5A15E6F939887EAEB19AFFFB /* Pods-HearthTests.debug.xcconfig */,
+				ECB6DA3E3D986BDF44FC8B08 /* Pods-HearthTests.release.xcconfig */,
+				E4AD8D04704FCA65236562E8 /* Pods-HearthUITests.debug.xcconfig */,
+				2C374D5A5D48D53569A4590D /* Pods-HearthUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5070F0052A0EC65100364092 = {
+			isa = PBXGroup;
+			children = (
+				5070F0102A0EC65100364092 /* Hearth */,
+				5070F0272A0EC65400364092 /* HearthTests */,
+				5070F0312A0EC65400364092 /* HearthUITests */,
+				5070F00F2A0EC65100364092 /* Products */,
+				36A47CF761B2C30BA6301844 /* Pods */,
+				199A46DEB62AEE6CC4AC1C9E /* Frameworks */,
+				5070F0412A0EC6EF00364092 /* Podfile */,
+				5070F0692A0ECD6600364092 /* Pods.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		5070F00F2A0EC65100364092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5070F00E2A0EC65100364092 /* Hearth.app */,
+				5070F0242A0EC65400364092 /* HearthTests.xctest */,
+				5070F02E2A0EC65400364092 /* HearthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5070F0102A0EC65100364092 /* Hearth */ = {
+			isa = PBXGroup;
+			children = (
+				5070F0112A0EC65100364092 /* AppDelegate.swift */,
+				5070F0132A0EC65100364092 /* SceneDelegate.swift */,
+				5070F0152A0EC65100364092 /* ViewController.swift */,
+				5070F0172A0EC65100364092 /* Main.storyboard */,
+				5070F01A2A0EC65300364092 /* Assets.xcassets */,
+				5070F01C2A0EC65300364092 /* LaunchScreen.storyboard */,
+				5070F01F2A0EC65300364092 /* Info.plist */,
+			);
+			path = Hearth;
+			sourceTree = "<group>";
+		};
+		5070F0272A0EC65400364092 /* HearthTests */ = {
+			isa = PBXGroup;
+			children = (
+				5070F0282A0EC65400364092 /* HearthTests.swift */,
+			);
+			path = HearthTests;
+			sourceTree = "<group>";
+		};
+		5070F0312A0EC65400364092 /* HearthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5070F0322A0EC65400364092 /* HearthUITests.swift */,
+				5070F0342A0EC65400364092 /* HearthUITestsLaunchTests.swift */,
+			);
+			path = HearthUITests;
+			sourceTree = "<group>";
+		};
+		5070F06A2A0ECD6600364092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5070F0722A0ECD6600364092 /* Alamofire */,
+				5070F0742A0ECD6600364092 /* AlamofirePlace */,
+				5070F0762A0ECD6600364092 /* Pods-Hearth */,
+				5070F0782A0ECD6600364092 /* Pods-HearthTests */,
+				5070F07A2A0ECD6600364092 /* Pods-HearthUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5070F00D2A0EC65100364092 /* Hearth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5070F0382A0EC65400364092 /* Build configuration list for PBXNativeTarget "Hearth" */;
+			buildPhases = (
+				7A3B8D26CA2540781AAD7917 /* [CP] Check Pods Manifest.lock */,
+				5070F00A2A0EC65100364092 /* Sources */,
+				5070F00B2A0EC65100364092 /* Frameworks */,
+				5070F00C2A0EC65100364092 /* Resources */,
+				BF5F29D10B7BF07D32EB5643 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5070F07C2A0ECD9200364092 /* PBXTargetDependency */,
+			);
+			name = Hearth;
+			productName = Hearth;
+			productReference = 5070F00E2A0EC65100364092 /* Hearth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5070F0232A0EC65400364092 /* HearthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5070F03B2A0EC65400364092 /* Build configuration list for PBXNativeTarget "HearthTests" */;
+			buildPhases = (
+				DE386C564584C71F701C7D20 /* [CP] Check Pods Manifest.lock */,
+				5070F0202A0EC65400364092 /* Sources */,
+				5070F0212A0EC65400364092 /* Frameworks */,
+				5070F0222A0EC65400364092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5070F07E2A0ECD9700364092 /* PBXTargetDependency */,
+				5070F0262A0EC65400364092 /* PBXTargetDependency */,
+			);
+			name = HearthTests;
+			productName = HearthTests;
+			productReference = 5070F0242A0EC65400364092 /* HearthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5070F02D2A0EC65400364092 /* HearthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5070F03E2A0EC65400364092 /* Build configuration list for PBXNativeTarget "HearthUITests" */;
+			buildPhases = (
+				58D045B008120520375D5746 /* [CP] Check Pods Manifest.lock */,
+				5070F02A2A0EC65400364092 /* Sources */,
+				5070F02B2A0EC65400364092 /* Frameworks */,
+				5070F02C2A0EC65400364092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5070F0802A0ECD9B00364092 /* PBXTargetDependency */,
+				5070F0302A0EC65400364092 /* PBXTargetDependency */,
+			);
+			name = HearthUITests;
+			productName = HearthUITests;
+			productReference = 5070F02E2A0EC65400364092 /* HearthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5070F0062A0EC65100364092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5070F00D2A0EC65100364092 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5070F0232A0EC65400364092 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5070F00D2A0EC65100364092;
+					};
+					5070F02D2A0EC65400364092 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 5070F00D2A0EC65100364092;
+					};
+				};
+			};
+			buildConfigurationList = 5070F0092A0EC65100364092 /* Build configuration list for PBXProject "Hearth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5070F0052A0EC65100364092;
+			productRefGroup = 5070F00F2A0EC65100364092 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5070F06A2A0ECD6600364092 /* Products */;
+					ProjectRef = 5070F0692A0ECD6600364092 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5070F00D2A0EC65100364092 /* Hearth */,
+				5070F0232A0EC65400364092 /* HearthTests */,
+				5070F02D2A0EC65400364092 /* HearthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5070F0722A0ECD6600364092 /* Alamofire */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Alamofire;
+			path = Alamofire.framework;
+			remoteRef = 5070F0712A0ECD6600364092 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5070F0742A0ECD6600364092 /* AlamofirePlace */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = AlamofirePlace;
+			path = AlamofirePlace.framework;
+			remoteRef = 5070F0732A0ECD6600364092 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5070F0762A0ECD6600364092 /* Pods-Hearth */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-Hearth";
+			path = Pods_Hearth.framework;
+			remoteRef = 5070F0752A0ECD6600364092 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5070F0782A0ECD6600364092 /* Pods-HearthTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-HearthTests";
+			path = Pods_HearthTests.framework;
+			remoteRef = 5070F0772A0ECD6600364092 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5070F07A2A0ECD6600364092 /* Pods-HearthUITests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-HearthUITests";
+			path = Pods_HearthUITests.framework;
+			remoteRef = 5070F0792A0ECD6600364092 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5070F00C2A0EC65100364092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5070F01E2A0EC65300364092 /* LaunchScreen.storyboard in Resources */,
+				5070F01B2A0EC65300364092 /* Assets.xcassets in Resources */,
+				5070F0192A0EC65100364092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F0222A0EC65400364092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F02C2A0EC65400364092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D045B008120520375D5746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HearthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3B8D26CA2540781AAD7917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hearth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5F29D10B7BF07D32EB5643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hearth/Pods-Hearth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE386C564584C71F701C7D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HearthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5070F00A2A0EC65100364092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5070F0162A0EC65100364092 /* ViewController.swift in Sources */,
+				5070F0122A0EC65100364092 /* AppDelegate.swift in Sources */,
+				5070F0142A0EC65100364092 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F0202A0EC65400364092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5070F0292A0EC65400364092 /* HearthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070F02A2A0EC65400364092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5070F0352A0EC65400364092 /* HearthUITestsLaunchTests.swift in Sources */,
+				5070F0332A0EC65400364092 /* HearthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5070F0262A0EC65400364092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5070F00D2A0EC65100364092 /* Hearth */;
+			targetProxy = 5070F0252A0EC65400364092 /* PBXContainerItemProxy */;
+		};
+		5070F0302A0EC65400364092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5070F00D2A0EC65100364092 /* Hearth */;
+			targetProxy = 5070F02F2A0EC65400364092 /* PBXContainerItemProxy */;
+		};
+		5070F07C2A0ECD9200364092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hearth";
+			targetProxy = 5070F07B2A0ECD9200364092 /* PBXContainerItemProxy */;
+		};
+		5070F07E2A0ECD9700364092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HearthTests";
+			targetProxy = 5070F07D2A0ECD9700364092 /* PBXContainerItemProxy */;
+		};
+		5070F0802A0ECD9B00364092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HearthUITests";
+			targetProxy = 5070F07F2A0ECD9B00364092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5070F0172A0EC65100364092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5070F0182A0EC65100364092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5070F01C2A0EC65300364092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5070F01D2A0EC65300364092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5070F0362A0EC65400364092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5070F0372A0EC65400364092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5070F0392A0EC65400364092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89E5BD3A63BBA38FC689B65 /* Pods-Hearth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hearth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.Hearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5070F03A2A0EC65400364092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AF6362403A97B4BC58920C /* Pods-Hearth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hearth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.Hearth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5070F03C2A0EC65400364092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A15E6F939887EAEB19AFFFB /* Pods-HearthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.HearthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearth";
+			};
+			name = Debug;
+		};
+		5070F03D2A0EC65400364092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB6DA3E3D986BDF44FC8B08 /* Pods-HearthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.HearthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearth";
+			};
+			name = Release;
+		};
+		5070F03F2A0EC65400364092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AD8D04704FCA65236562E8 /* Pods-HearthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.HearthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hearth;
+			};
+			name = Debug;
+		};
+		5070F0402A0EC65400364092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C374D5A5D48D53569A4590D /* Pods-HearthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lowammo.testing.HearthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hearth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5070F0092A0EC65100364092 /* Build configuration list for PBXProject "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5070F0362A0EC65400364092 /* Debug */,
+				5070F0372A0EC65400364092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5070F0382A0EC65400364092 /* Build configuration list for PBXNativeTarget "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5070F0392A0EC65400364092 /* Debug */,
+				5070F03A2A0EC65400364092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5070F03B2A0EC65400364092 /* Build configuration list for PBXNativeTarget "HearthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5070F03C2A0EC65400364092 /* Debug */,
+				5070F03D2A0EC65400364092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5070F03E2A0EC65400364092 /* Build configuration list for PBXNativeTarget "HearthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5070F03F2A0EC65400364092 /* Debug */,
+				5070F0402A0EC65400364092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5070F0062A0EC65100364092 /* Project object */;
+}

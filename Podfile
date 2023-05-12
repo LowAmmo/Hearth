@@ -1,0 +1,58 @@
+#source 'https://github.cerner.com/ios/cocoapod-release-specs'
+
+ios_deployment_target = 15.5
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, ios_deployment_target
+
+# Fixes issue where Pod doesn't pick up changes in dependencies
+# https://github.com/CocoaPods/CocoaPods/issues/8073
+# https://www.ralfebert.de/ios/blog/cocoapods-clean-input-output-files/
+install! 'cocoapods', :disable_input_output_paths => true
+
+workspace 'Hearth'
+
+target 'Hearth' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+
+    #pod 'AlamofirePlace', '1.0.0'
+    
+    pod 'AlamofirePlace', :path => './AlamofirePlace/'
+    
+    target 'HearthTests' do
+      inherit! :search_paths
+    end
+
+    target 'HearthUITests' do
+      inherit! :search_paths
+    end
+
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+
+        target.build_settings('Debug')["OTHER_LDFLAGS[sdk=iphonesimulator*]"] = "$(inherited) -framework XCTest"
+
+        target.build_configurations.each do |config|
+
+            # Handles requirement of Xcode 13.3 where all bundles need to be signed, by copying the team from this project's settings
+            if target.respond_to?(:product_type) && target.product_type == 'com.apple.product-type.bundle'
+                installer.aggregate_targets.each do |aggregateTarget|
+                    aggregateTarget.user_project.root_object.build_configuration_list.build_configurations.each do |projectConfig|
+                        if projectConfig.name == config.name
+                            config.build_settings['DEVELOPMENT_TEAM'] = projectConfig.build_settings['DEVELOPMENT_TEAM']
+                        end
+                    end
+                end
+            end
+
+            # Setting this seems to clear out warnings about updating the Pod project & helps clean up warnings about dependencies targeting
+            #   extremely old iOS versions (i.e. 8.0, 9.0, etc.).
+            if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < ios_deployment_target
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = ios_deployment_target
+            end
+        end
+    end
+end

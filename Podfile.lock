@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.7.1)
+  - AlamofirePlace (1.0.0):
+    - Alamofire (~> 5.7.1)
+
+DEPENDENCIES:
+  - AlamofirePlace (from `./AlamofirePlace/`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  AlamofirePlace:
+    :path: "./AlamofirePlace/"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AlamofirePlace: 687789883652918ed98af92474fa4037ce167eb9
+
+PODFILE CHECKSUM: fe957dda4dfd8d444e613a4aec5fa14cee8e2ae8
+
+COCOAPODS: 1.12.1
